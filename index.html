@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Doosan Motor</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <!-- <link rel="icon" href="/favicon.png" /> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Doosan Motor Car Inspection Service" />
+
+        <link href="./public/style.css" rel="stylesheet"/>
+
+        <script src="./public/scripts.js"></script>
+        <script>
+            window.addEventListener('load', function() {
+                centerLogo('doosan-logo')
+                makeButtons('contacts')
+                centerIcon('contact-button-icon')
+            })
+        </script>
+    </head>
+
+    <body>
+        <header class="header">
+            <svg 
+                class="opacity-zero"
+                id="doosan-logo"
+            >
+                <use
+                    href="./public/svgs.svg#doosan_vertical"
+                />
+            </svg>
+        </header>
+
+        <section>
+            <article>
+                <h2 class="main-title text-center text-letter">
+                    대구 수성구에서 <br> 
+                    가장 편리한 자동차 검사가 <br>
+                    찾아왔습니다.
+                </h2>
+
+                <p class="sub-title p2 text-center text-letter text-op60">더 편리한 이용을 위해 카카오 채널을 추가해주세요!</p>
+            </article>
+        
+            <div 
+                class="contact-card"
+                id="contacts"
+            >
+                <div class="contact-info">
+                    <h4>대구 수성구 지범로 39 (두산동)</h4>
+                    <p class="p1 text-letter">
+                        평일 | 오전 9:00 - 오후 6:00 <br>
+                        토요일 | 오전 9:00 - 오후 1:00
+                    </p>
+                    <p class="p1 text-letter mt-xs display-none">전화번호 | 053-716-7766</p>
+                </div>
+
+                <div 
+                    class="contact-button-wrapper"
+                >
+                    <a  
+                        class="contact-button contact-button-phone opacity-zero"
+                        href="tel:053-716-7766"
+                    >
+                        <svg class="contact-button-icon">
+                            <use href="./public/svgs.svg#phone"/>
+                        </svg>
+                        <h4 class="text-center text-white">전화하기</h4>
+                    </a>
+                    
+                    <a 
+                        class="contact-button contact-button-kakao opacity-zero" 
+                        href="https://pf.kakao.com/_xeGFWK"
+                    >
+                        <svg class="contact-button-icon">
+                            <use href="./public/svgs.svg#kakao"/>
+                        </svg>
+                        <h4 class="text-center text-kakao-black">카카오톡</h4>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+    </body>
+</html>

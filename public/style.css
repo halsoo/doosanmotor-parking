@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "IBMPlexSansKR";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Medium.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IBMPlexSansKR";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        padding: 0 calc((100vw - 800px) / 2);
+    }
+
+    .contact-card {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    body {
+        padding: 0 24px;
+    }
+
+    .contact-card {
+        width: calc(100vw - 48px);
+    }
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding-top: 24px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 0;
+    border-style: none;
+}
+
+h2 {
+    margin: 0;
+    font-family: "IBMPlexSansKR";
+    font-weight: 800;
+    font-size: 24px;
+}
+
+h4 {
+    margin: 0;
+    font-family: "IBMPlexSansKR";
+    font-weight: 800;
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+}
+
+.p1 {
+    font-family: "IBMPlexSansKR";
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.p2 {
+    font-family: "IBMPlexSansKR";
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.header {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgba(233, 233, 233, 0.9);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.main-title {
+    margin-top: 33px;
+    margin-bottom: 16px;
+}
+
+.contact-card {
+    position: absolute;
+    bottom: 28px;
+}
+
+.contact-info {
+    margin-bottom: 16px;
+    padding: 16px 24px;
+    background-color: #f9f9f9;
+}
+
+.contact-button-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+}
+
+.contact-button {
+    grid-column: span 2;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 12px;
+}
+
+.contact-button-icon {
+    height: 50%;
+    margin-right: 8px;
+}
+
+.contact-button-phone {
+    color: #ffffff;
+    background-color: #112233;
+    fill: #ffffff;
+}
+
+.contact-button-kakao {
+    background-color: #fee500;
+    fill: #112233;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-op60 {
+    opacity: 0.6;
+}
+
+.text-letter {
+    color: #112233;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-kakao-black {
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.opacity-zero {
+    opacity: 0%;
+}
+
+.display-none {
+    display: none;
+}
+
+.mt-xs {
+    margin-top: 8px;
+}
