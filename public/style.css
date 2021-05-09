@@ -94,6 +94,10 @@ p {
     -webkit-backdrop-filter: blur(10px);
 }
 
+.header-logo {
+    width: 23.5%;
+}
+
 .main-title {
     margin-top: 33px;
     margin-bottom: 16px;
